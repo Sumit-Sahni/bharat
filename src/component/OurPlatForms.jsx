@@ -54,16 +54,16 @@ const responsive = {
 const OurPlatForms = () => {
   return (
 
-    <section className="mx-auto min-h-[70vh] py-20">
+    <section className="mx-auto min-h-auto py-32">
           <div className="w-full flex flex-col items-center justify-center mx-auto">
                 <div className=" mx-auto p-8 my-4 flex  justify-center">
                      <h1 className="text-2xl sm:text-4xl md:text-6xl md:text-center ">One Platform <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 font-bold to-blue-600 ">Infinite Possibilities</span></h1>
                  </div>
-                 <Carousel responsive={responsive} className="w-full lg:w-4/5  mx-auto px-12 py-4  cursor-pointer ">
+                 <Carousel responsive={responsive} className="w-full lg:w-4/5  mx-auto px-1 sm:px-12 py-4  cursor-pointer ">
                        {
                         slide.map((item, index)=>{
                             return(
-                                <div key={index} className="w-[380px] h-[200px] mx-4">
+                                <div key={index} className="w-[380px] h-[200px] ">
                                     <img src={item.image} alt="" />
                                 </div>
                             )

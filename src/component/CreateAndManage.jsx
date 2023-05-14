@@ -13,10 +13,10 @@ const CreateAndManage = () => {
       }
    
   return (
-    <section className="mx-auto min-h-auto ">
+    <section className="mx-auto min-h-auto">
          
          <div className="w-4/5 mx-auto  px-4 text-center mb-12">
-            <h1 className="text-2xl sm:text-4xl md:text-6xl  border">{"It's"} <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 font-bold to-blue-600 ">Super Easy</span> to Create & Manage  your Own Online Store 
+            <h1 className="text-2xl sm:text-4xl md:text-6xl ">{"It's"} <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 font-bold to-blue-600 ">Super Easy</span> to Create & Manage  your Own Online Store 
              with </h1>
         </div>
 
