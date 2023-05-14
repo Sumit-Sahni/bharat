@@ -2,20 +2,20 @@ import {UsersIcon} from  "@heroicons/react/24/solid"
 
 const MorePowerMoreBenifits = () => {
   return (
-      <section className="mx-auto min-h-full w-5/6 py-20">
-             <div  className='absolute z-[-1] h[60%]  w-5/6  sm:h-full bg-gradient-to-r from-cyan-50 to-blue-50 ' style={{clipPath: "polygon(100% 0, 0% 100%, 100% 100%)"}}>
+      <section className=" mx-auto h-auto py-20">
+             <div  className='absolute z-[-1] h[60%]  w-auto sm:h-full bg-gradient-to-r from-cyan-50 to-blue-50 ' style={{clipPath: "polygon(100% 0, 0% 100%, 100% 100%)"}}>
              </div>
             <div className=" mx-auto flex flex-col items-center justify-around ">
             
-                  <div className="w-full mx-auto px-4 text-center">
-                        <h1 className="text-2xl sm:text-6xl">Take control of your business<br/>
+                  <div className="w-full mx-auto px-4 text-center ">
+                        <h1 className="text-2xl sm:text-4xl md:text-6xl">Take control of your business<br/>
                          with <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 font-bold to-blue-600 ">More Power & More Benefits</span></h1>
                   </div>
 
 
                   <div className="sm:w-4/5 py-8 sm:py-16  my-8">
                        <div className="w-full flex flex-wrap gap-3 items-center justify-center ">
-                            <div className="w-[250px] h-[220px] border bg-gradient-to-r from-gray-200 to-blue-300 hover:bg-gradient-to-b cursor-pointer hover:border4 hover:border-dashed   flex flex-col items-center  justify-evenly p-4 rounded-lg shadow-2xl">
+                            <div className="w-[350px] h-[220px] border bg-gradient-to-r from-gray-200 to-blue-300 hover:bg-gradient-to-b cursor-pointer hover:border4 hover:border-dashed   flex flex-col items-center  justify-evenly p-4 rounded-lg shadow-2xl">
                                  <div >
                                       <UsersIcon className="w-10"/>
                                  </div>
@@ -27,7 +27,7 @@ const MorePowerMoreBenifits = () => {
                                  </div>
                             </div>
                              
-                            <div className="w-[250px] h-[220px] border bg-gradient-to-r from-gray-200 to-blue-300 hover:bg-gradient-to-b cursor-pointer hover:border4 hover:border-dashed   flex flex-col items-center  justify-evenly p-4 rounded-lg shadow-2xl">
+                            <div className="w-[350px] h-[220px] border bg-gradient-to-r from-gray-200 to-blue-300 hover:bg-gradient-to-b cursor-pointer hover:border4 hover:border-dashed   flex flex-col items-center  justify-evenly p-4 rounded-lg shadow-2xl">
                                  <div >
                                       <UsersIcon className="w-10"/>
                                  </div>
@@ -39,7 +39,7 @@ const MorePowerMoreBenifits = () => {
                                  </div>
                             </div>
 
-                            <div className="w-[250px] h-[220px] border bg-gradient-to-r from-gray-200 to-blue-300 hover:bg-gradient-to-b cursor-pointer hover:border4 hover:border-dashed   flex flex-col items-center  justify-evenly p-4 rounded-lg shadow-2xl">
+                            <div className="w-[350px] h-[220px] border bg-gradient-to-r from-gray-200 to-blue-300 hover:bg-gradient-to-b cursor-pointer hover:border4 hover:border-dashed   flex flex-col items-center  justify-evenly p-4 rounded-lg shadow-2xl">
                                  <div >
                                       <UsersIcon className="w-10"/>
                                  </div>
@@ -51,7 +51,7 @@ const MorePowerMoreBenifits = () => {
                                  </div>
                             </div>
 
-                            <div className="w-[250px] h-[220px] border bg-gradient-to-r from-gray-200 to-blue-300 hover:bg-gradient-to-b cursor-pointer hover:border4 hover:border-dashed   flex flex-col items-center  justify-evenly p-4 rounded-lg shadow-2xl">
+                            <div className="w-[350px] h-[220px] border bg-gradient-to-r from-gray-200 to-blue-300 hover:bg-gradient-to-b cursor-pointer hover:border4 hover:border-dashed   flex flex-col items-center  justify-evenly p-4 rounded-lg shadow-2xl">
                                  <div >
                                       <UsersIcon className="w-10"/>
                                  </div>
@@ -63,7 +63,7 @@ const MorePowerMoreBenifits = () => {
                                  </div>
                             </div>
 
-                            <div className="w-[250px] h-[220px] border bg-gradient-to-r from-gray-200 to-blue-300 hover:bg-gradient-to-b cursor-pointer hover:border4 hover:border-dashed   flex flex-col items-center  justify-evenly p-4 rounded-lg shadow-2xl">
+                            <div className="w-[350px] h-[220px] border bg-gradient-to-r from-gray-200 to-blue-300 hover:bg-gradient-to-b cursor-pointer hover:border4 hover:border-dashed   flex flex-col items-center  justify-evenly p-4 rounded-lg shadow-2xl">
                                  <div >
                                       <UsersIcon className="w-10"/>
                                  </div>
@@ -75,7 +75,7 @@ const MorePowerMoreBenifits = () => {
                                  </div>
                             </div>
 
-                            <div className="w-[250px] h-[220px] border bg-gradient-to-r from-gray-200 to-blue-300 hover:bg-gradient-to-b cursor-pointer hover:border4 hover:border-dashed   flex flex-col items-center  justify-evenly p-4 rounded-lg shadow-2xl">
+                            <div className="w-[350px] h-[220px] border bg-gradient-to-r from-gray-200 to-blue-300 hover:bg-gradient-to-b cursor-pointer hover:border4 hover:border-dashed   flex flex-col items-center  justify-evenly p-4 rounded-lg shadow-2xl">
                                  <div >
                                       <UsersIcon className="w-10"/>
                                  </div>
