@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Create from "./create/Create"
 import Promote from "./promote/Promote"
-import Sell from "./sell/sell"
+import Sell from "./sell/Sell"
 import Earn from "./earn/Earn"
 
 const CreateAndManage = () => {
