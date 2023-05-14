@@ -37,7 +37,7 @@ const CreateAndManage = () => {
                         </div>
                     </div>
 
-                    <div className={`bg-gradient-to-r from-cyan-100 to-blue-500  w-full h-auto sm:h-60 flex justify-center items-center my-12`}>
+                    <div className={`bg-gradient-to-r from-cyan-100 to-blue-500  w-full h-auto sm:h-60 flex justify-center items-center my-12 py-16 sm:py-0  `}>
                        {activeButton === 1  && <Create/>}
                        {activeButton === 2  && <Promote />}
                        {activeButton === 3  && <Sell/>}
