@@ -26,7 +26,7 @@ const Navbar = () => {
                     <img src={bharat2} alt="bharat2" />
                  </div> :(
                     <button
-                    className=" rounded-full bg-orange-500 p-2"
+                    className=" rounded-full bg-gradient-to-r from-green-400 to-blue-500 p-2"
                     onClick={()=>setIsMenuToggled(!isMenuToggled)}
                    >
                    <Bars3Icon className=" h-6 w-6 text-white"/>

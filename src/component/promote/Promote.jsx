@@ -9,7 +9,7 @@ const Promote = () => {
             </div>
           
         <div className="p-4 text-center sm:text-left">
-             <h1 className="text-2xl font-bold">PROMOTE YOUR CHANNELS</h1>
+             <h1 className="text-2xl font-bold text-white">PROMOTE YOUR CHANNELS</h1>
              <p>Promote your Ordering Channels on Social Media and to your Customers</p>
         </div>
     </div>

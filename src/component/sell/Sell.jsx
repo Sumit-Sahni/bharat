@@ -9,7 +9,7 @@ const Sell = () => {
             </div>
           
         <div className="p-4 text-center sm:text-left">
-             <h1 className="text-2xl font-bold">EARN EXTRA</h1>
+             <h1 className="text-2xl font-bold text-white">EARN EXTRA</h1>
              <p>By not paying any commission to others and by displaying Ads on your Webpage</p>
         </div>
     </div>

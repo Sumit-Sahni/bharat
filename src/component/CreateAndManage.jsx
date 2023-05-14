@@ -6,40 +6,41 @@ import Earn from "./earn/Earn"
 
 const CreateAndManage = () => {
 
-    const [activeButton, setActiveButton] = useState(1);
+    const [activeButton, setActiveButton] = useState(4);
 
     function handleButtonClick(buttonId) {
         setActiveButton(buttonId);
       }
    
   return (
-    <section className="h-screen">
-          <div className="w-full sm:w-3/4 mx-auto  p-8 my-6 flex  justify-center">
-               <h1 className="text-4xl sm:text-6xl text-center">{"It's"} <span className="text-orange-500">Super Easy</span> to Create & Manage <br/> your Own Online Store</h1>
+    <section className="h-screen p-16">
+         
+          <div className="w-full sm:w-3/4 mx-auto  p-8  flex  justify-center">
+               <h1 className="text-4xl sm:text-6xl text-center">{"It's"} <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 font-bold to-blue-600 ">Super Easy</span> to Create & Manage <br/> your Own Online Store</h1>
           </div>
 
           <div>
               <div className="w-full lg:w-3/5 p-4 md:p-12 mx-auto">
                     <div className=" sm:w-full flex flex-col sm:flex-row  justify-between  text-2xl ">
-                        <div onClick={()=>handleButtonClick(1)} className={`${activeButton === 1 ? 'bg-orange-500' : 'red'} cursor-pointer px-8 p-2 rounded-md`}>
+                        <div onClick={()=>handleButtonClick(1)} className={`${activeButton === 1 ? 'bg-gradient-to-r from-green-400 to-blue-500' : 'red'} cursor-pointer px-8 p-2 rounded-md`}>
                             <h1>CREATE</h1>
                         </div>
-                        <div onClick={()=>handleButtonClick(2)} className={`${activeButton === 2 ? 'bg-orange-500' : 'red'} cursor-pointer px-8 p-2 rounded-md`}>
+                        <div onClick={()=>handleButtonClick(2)} className={`${activeButton === 2 ? 'bg-gradient-to-r from-green-400 to-blue-500' : 'red'} cursor-pointer px-8 p-2 rounded-md`}>
                             <h1>PROMOTE</h1>
                         </div>
-                        <div  onClick={()=>handleButtonClick(3)} className={`${activeButton === 3 ? 'bg-orange-500' : 'red'} cursor-pointer px-8 p-2 rounded-md`} >
+                        <div  onClick={()=>handleButtonClick(3)} className={`${activeButton === 3 ? 'bg-gradient-to-r from-green-400 to-blue-500' : 'red'} cursor-pointer px-8 p-2 rounded-md`} >
                             <h1>SELL</h1>
                         </div>
-                        <div  onClick={()=>handleButtonClick(4)} className={`${activeButton === 4 ? 'bg-orange-500' : 'red'} cursor-pointer px-8 p-2 rounded-md`}>
+                        <div  onClick={()=>handleButtonClick(4)} className={`${activeButton === 4 ? 'bg-gradient-to-r from-green-400 to-blue-500' : 'red'} cursor-pointer px-8 p-2 rounded-md`}>
                             <h1>EARN</h1>
                         </div>
                     </div>
 
-                    <div className="w-full h-auto sm:h-60 flex justify-center items-center border my-4">
-                    {activeButton === 1  && <Create/>}
-                    {activeButton === 2  && <Promote />}
-                    {activeButton === 3  && <Sell/>}
-                    {activeButton === 4  && <Earn/>}
+                    <div className={`bg-gradient-to-r from-cyan-100 to-blue-500  w-full h-auto sm:h-60 flex justify-center items-center my-12`}>
+                       {activeButton === 1  && <Create/>}
+                       {activeButton === 2  && <Promote />}
+                       {activeButton === 3  && <Sell/>}
+                       {activeButton === 4  && <Earn/>}
                     </div>   
               </div>
           </div>
