@@ -54,10 +54,10 @@ const responsive = {
 const OurPlatForms = () => {
   return (
 
-    <section className="h-auto py-16">
+    <section className="mx-auto min-h-[70vh] w-5/6 py-20">
           <div className="w-full flex flex-col items-center justify-center mx-auto">
-                <div className="w-full sm:w-4/5 mx-auto p-8 my-4 flex  justify-center">
-                     <h1 className="text-4xl sm:text-6xl text-center ">One Platform <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 font-bold to-blue-600 ">Infinite Possibilities</span></h1>
+                <div className=" mx-auto p-8 my-4 flex  justify-center">
+                     <h1 className="text-4xl sm:text-6xl md:text-center ">One Platform <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 font-bold to-blue-600 ">Infinite Possibilities</span></h1>
                  </div>
                  <Carousel responsive={responsive} className="w-full lg:w-4/5  mx-auto px-12 py-4  cursor-pointer ">
                        {
