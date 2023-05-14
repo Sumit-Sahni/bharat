@@ -9,10 +9,10 @@ const CustomerLoyalty = () => {
   return (
       <section className="h-auto " >
            <div className="px-2 md:w-4/5 flex flex-col items-center mx-auto justify-center">
-               <div className=" mx-auto  text-center ">
-                    <h1 className="text-4xl sm:text-6xl py-16">True Omni-Channel Solution<br/>
-                     to build <span className=" text-transparent bg-clip-text bg-gradient-to-r from-green-500 font-bold to-blue-600"> Customer Loyalty</span></h1>
-               </div>
+                <div className="w-full mx-auto px-4 text-center mb-12">
+                        <h1 className="text-2xl sm:text-6xl">True Omni-Channel Solution<br/>
+                         to build<span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 font-bold to-blue-600 ">Customer Loyalty</span></h1>
+                  </div>
 
                <div className="w-full lg:w-4/5 mx-auto flex flex-wrap gap-4 gap-y-10 justify-center h-auto ">
                 

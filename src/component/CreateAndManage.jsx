@@ -15,9 +15,10 @@ const CreateAndManage = () => {
   return (
     <section className="h-screen p-16">
          
-          <div className="w-full sm:w-3/4 mx-auto  p-8  flex  justify-center">
-               <h1 className="text-4xl sm:text-6xl text-center">{"It's"} <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 font-bold to-blue-600 ">Super Easy</span> to Create & Manage <br/> your Own Online Store</h1>
-          </div>
+         <div className="w-full mx-auto px-4 text-center mb-12">
+            <h1 className="text-2xl sm:text-6xl">{"It's"} <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 font-bold to-blue-600 ">Super Easy</span> to Create & Manage <br/> your Own Online Store 
+             with </h1>
+        </div>
 
           <div>
               <div className="w-full lg:w-3/5 p-4 md:p-12 mx-auto">
