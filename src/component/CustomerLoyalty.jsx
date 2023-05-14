@@ -7,7 +7,7 @@ import mobileApp from "../assets/phone.jpg"
 const CustomerLoyalty = () => {
 
   return (
-      <section className="h-auto " >
+      <section className="h-auto py-40" >
            <div className="px-2 md:w-4/5 flex flex-col items-center mx-auto justify-center">
                 <div className="w-full mx-auto px-4 text-center mb-12">
                         <h1 className="text-2xl sm:text-6xl">True Omni-Channel Solution<br/>
