@@ -64,7 +64,7 @@ const OurPlatForms = () => {
                         slide.map((item, index)=>{
                             return(
                                 <div key={index} className="w-[380px] h-[200px] ">
-                                    <img src={item.image} alt="" />
+                                    <img src={item.image} alt="image" className="rounded-xl" />
                                 </div>
                             )
                         })

@@ -3,11 +3,12 @@ import CreateAndManage from "../component/CreateAndManage";
 import CustomerLoyalty from "../component/CustomerLoyalty";
 import OurPlatForms from "../component/OurPlatForms";
 import MorePoweMoreBenifits from "../component/MorePowerMoreBenifits";
+import KeyPartnerForSuccess from "../component/KeyPartnerForSuccess";
 const Main = () => {
   return (
     <section className="w-full h-[50vh]  sm:h-full">
          <div className="w-full h-[80vh] sm:h-[90vh] relative">
-             <div className="before:absolute bg-fixed  w-full h-full bg-cover bg-center bg-no-repeat" style={{backgroundImage:`url(${homepic})`}}>
+             <div className="before:absolute bg-fixed  w-full h-full bg-cover bg-center bg-no-repeat object-contain" style={{backgroundImage:`url(${homepic})`}}>
                  <div className="px-2 md:w-3/4 top-40  mx-auto md:top-58 md:left-20 absolute">
                     <h1 className=" text-4xl font-extrabold md:text-7xl text-white">Start Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 font-bold to-blue-600  animate-pulse">Online</span>  Store</h1>
                     <h1 className=" text-4xl font-extrabold md:text-7xl text-white">Today. {"It's"} FREE.</h1>
@@ -24,6 +25,7 @@ const Main = () => {
          <CreateAndManage/>
          <CustomerLoyalty/>
          <MorePoweMoreBenifits/>
+         <KeyPartnerForSuccess/>
     </section>
   )
 }
