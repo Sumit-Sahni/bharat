@@ -8,7 +8,7 @@ import CreateOnlineStore from "../component/CreateOnlineStore";
 import Footer from "../component/Footer";
 const Main = () => {
   return (
-    <section className="w-full h-[50vh]  sm:h-full">
+    <section className="w-full h-[50vh] ">
          <div className="w-full h-[80vh] sm:h-[90vh] relative">
              <div className="before:absolute bg-fixed  w-full h-full bg-cover bg-center bg-no-repeat object-contain" style={{backgroundImage:`url(${homepic})`}}>
                  <div className="px-2 md:w-3/4 top-40  mx-auto md:top-58 md:left-20 absolute">

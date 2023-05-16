@@ -3,12 +3,12 @@ import {UsersIcon} from  "@heroicons/react/24/solid"
 const MorePowerMoreBenifits = () => {
   return (
       <section className=" mx-auto h-auto py-20">
-             <div  className='absolute z-[-1] h-[170vh] w-full  bg-gradient-to-r from-cyan-50 to-blue-50 ' style={{clipPath: "polygon(100% 0, 0% 100%, 100% 100%)"}}>
-             </div>
+             {/* <div  className='absolute z-[-1] lg:h-[170vh] w-full  bg-gradient-to-r from-cyan-50 to-blue-50 ' style={{clipPath: "polygon(100% 0, 0% 100%, 100% 100%)"}}>
+             </div> */}
             <div className=" mx-auto flex flex-col items-center justify-around ">
             
                   <div className="w-full mx-auto px-4 text-center ">
-                        <h1 className="text-2xl sm:text-4xl md:text-6xl">Take control of your business<br/>
+                        <h1 className="text-2xl sm:text-4xl md:text-5xl">Take control of your business<br/>
                          with <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 font-bold to-blue-600 ">More Power & More Benefits</span></h1>
                   </div>
 
