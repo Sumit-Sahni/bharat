@@ -28,7 +28,7 @@ justify-content: space-between;
 white-space: nowrap;
 width: 100%;
 
-animation:${scrollX} 10s linear infinite;
+animation:${scrollX} 12s linear infinite;
 `
 const MarqueeGroup = styled.div`
     ${common}
@@ -84,7 +84,7 @@ const KeyPartnerForSuccess = () => {
   };
   return (
     <>
-      <section className="mx-auto h-auto">
+      <section className="">
           <div className="w-[90%] mx-auto py-16">
           <div className="px-2  flex flex-col items-center  mx-auto justify-center">
                 <div className="w-full mx-auto px-4 text-center mb-12 ">
@@ -93,8 +93,8 @@ const KeyPartnerForSuccess = () => {
 
                     <div className=''>
 
-                      <div className={`${maskImageStyle} w-[360px] md:w-[800px] lg:[1200px] overflow-hidden flex `}>
-                          <MarqueeGroup >
+                      <div className={`${maskImageStyle} relative w-[360px] md:w-[800px] lg:[1200px] overflow-hidden flex  `}>
+                          <MarqueeGroup  className=''>
                             {
                               row1.map((item, index)=>{
                                 return(

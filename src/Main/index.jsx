@@ -4,6 +4,8 @@ import CustomerLoyalty from "../component/CustomerLoyalty";
 import OurPlatForms from "../component/OurPlatForms";
 import MorePoweMoreBenifits from "../component/MorePowerMoreBenifits";
 import KeyPartnerForSuccess from "../component/KeyPartnerForSuccess";
+import CreateOnlineStore from "../component/CreateOnlineStore";
+import Footer from "../component/Footer";
 const Main = () => {
   return (
     <section className="w-full h-[50vh]  sm:h-full">
@@ -26,6 +28,8 @@ const Main = () => {
          <CustomerLoyalty/>
          <MorePoweMoreBenifits/>
          <KeyPartnerForSuccess/>
+         <CreateOnlineStore/>
+         <Footer/>
     </section>
   )
 }

@@ -3,7 +3,7 @@ import {UsersIcon} from  "@heroicons/react/24/solid"
 const MorePowerMoreBenifits = () => {
   return (
       <section className=" mx-auto h-auto py-20">
-             <div  className='absolute z-[-1] h[60%]  w-auto sm:h-full bg-gradient-to-r from-cyan-50 to-blue-50 ' style={{clipPath: "polygon(100% 0, 0% 100%, 100% 100%)"}}>
+             <div  className='absolute z-[-1] h-[170vh] w-full  bg-gradient-to-r from-cyan-50 to-blue-50 ' style={{clipPath: "polygon(100% 0, 0% 100%, 100% 100%)"}}>
              </div>
             <div className=" mx-auto flex flex-col items-center justify-around ">
             
